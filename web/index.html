@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Graphite</title>
+    </head>
+    <body>
+        <div class="fixed">
+            <h1>Graphite</h1>
+            <div id="clear"><p>Clear</p></div>
+            <div id="trash"><p>🗑️</p></div>
+        </div>
+        <div id="interactive">
+            <div id="sidebar">
+                <div id="sidebar-nav" class="sidebar-header">
+                    <h2 class="arrow-button arrow-right"></h2>
+                </div>
+                <div id="sidebar-contents">
+                    <div class="sidebar-header">
+                        <h3>Nodes</h3>
+                    </div>
+                    <hr>
+                    <div id="node-list"></div>
+                    <div class="sidebar-header">
+                        <h3>Variables</h3>
+                    </div>
+                    <hr>
+                    <div class="sidebar-header">
+                        <h4>User-Defined</h4>
+                    </div>
+                    <div id="variable-list"></div>
+                    <button id="new-vector">New vector</button>
+                    <button id="new-constant">New constant</button>
+                    <div class="sidebar-header">
+                        <h4>Static</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="hook"></div>
+        </div>
+    </body>
+    
+</html>
